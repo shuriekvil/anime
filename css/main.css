@@ -1,0 +1,119 @@
+@import url(reset.css);
+
+.container {
+    max-width: 1400px;
+    margin: 50px auto;
+    display: grid;
+    
+}
+.block {
+    border: 2px solid black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+}
+.block1 { 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: rgb(255, 255, 255);
+    background-color: darkgreen;
+    padding: 20px 0;
+}
+.block2 {
+    background-color: lightblue;
+}
+.block3 {
+    background-color: lightblue;
+
+}
+.block4 {
+    background-color: lightblue;
+}
+.block5 {
+    background-color: lightblue;
+}
+.block6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color:orangered;
+    color: #FFFF;
+}
+.block7 {
+}
+.qwerty1 {
+    color: #FFFF;
+    font-size: 15px;
+    text-transform: none;
+    width: 250px;
+    height: 150px;
+    background-color:blue;
+    margin: 0 auto;
+}
+.block8 {
+}
+.qwerty2 {
+    color: #FFFF;
+    font-size: 15px;
+    text-transform: none;
+    width: 250px;
+    height: 150px;
+    background-color:blue;
+    margin: 0 auto;
+}
+.block9 {
+}
+.qwerty3 {
+    color: #FFFF;
+    font-size: 15px;
+    text-transform: none;
+    width: 250px;
+    height: 150px;
+    background-color:blue;
+    margin: 0 auto;
+}
+.block10 {
+}
+.qwerty4 {
+        color: #FFFF;
+    font-size: 15px;
+    text-transform: none;
+    width: 250px;
+    height: 150px;
+    background-color:blue;
+    margin: 0 auto;
+}
+.block2:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.block3:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.block4:hover {
+    transform: scale(1.2);
+    transition: 0.5s;  
+}
+.block5:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.qwerty1:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.qwerty2:hover {
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+.qwerty3:hover {
+    transform: matrix(1.1,0.5,0.7,1.4,1,2);
+    transition:1s;
+}
+.qwerty4:hover {
+    transform: translate(30px, 30px) rotate(45deg) scale(2);
+    transition: 1s;
+}
